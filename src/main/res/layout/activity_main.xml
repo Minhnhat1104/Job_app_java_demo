@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:justifyContent="center"
+        app:alignItems="center"
+        app:flexDirection="column"
+        android:padding="50px">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600px"
+            android:background="#ccc"
+            android:textAlignment="center"
+            android:layout_margin="20px"
+            android:src="@drawable/Logo"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            />
+        <TextView
+            android:layout_width="200px"
+            android:background="lue"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            />
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:layout_width="800px"
+            android:layout_height="100px"
+            android:layout_marginTop="20px"
+            />
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:layout_width="800px"
+            android:layout_height="100px"
+            android:layout_marginTop="20px"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget password"
+            android:layout_margin="20px"
+            />
+        <Button
+            android:layout_width="400px"
+            android:layout_height="120px"
+            android:text="Sign"
+            android:layout_margin="20px"
+            />
+
+        <Button
+            android:layout_width="400px"
+            android:layout_height="120px"
+            android:text="Register"
+            android:layout_margin="20px"
+            />
+
+
+
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+    
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
